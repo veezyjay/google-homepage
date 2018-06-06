@@ -27,20 +27,20 @@ nav ul div {
 }
 .google_apps {
     opacity: 0.55;
-    background: transparent url(options.png) no-repeat center center/18px 18px; 
+    background: transparent url(../images/options.png) no-repeat center center/18px 18px; 
 }
 .notification {
-    background: rgb(115, 115, 115) url(notification.png) no-repeat center center/18px 18px;
+    background: rgb(115, 115, 115) url(../images/notification.png) no-repeat center center/18px 18px;
     border-radius: 100%;
 }
 .google_apps:hover {
     opacity: 1;
 }
 .notification:hover {
-    background: black url(notification.png) no-repeat center center/18px 18px;
+    background: black url(../images/notification.png) no-repeat center center/18px 18px;
 }
 .profile {
-    background: transparent url(profile.jpg) no-repeat center center/25px 25px;
+    background: transparent url(../images/profile.jpg) no-repeat center center/25px 25px;
     border-radius: 100%; 
 }
 ul {
@@ -88,7 +88,7 @@ main {
     float: right;
     width: 10%;
     height: 100%;
-    background: transparent url(mic2.png) no-repeat center center/25px 25px;
+    background: transparent url(../images/mic2.png) no-repeat center center/25px 25px;
 }
 button {
     border: none;
