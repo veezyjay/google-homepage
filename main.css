@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial, sans-serif;
+}
+/* Top Navigation bar */
+main nav {
+    text-align: right;
+    padding-top: 15px;
+    line-height: 30px;
+}
+main nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.word_nav {
+    vertical-align: text-bottom;
+    
+}
+nav ul div {
+    padding-right: 20px;
+    height: 25px;
+    width: 25px;
+}
+.google_apps {
+    opacity: 0.55;
+    background: transparent url(options.png) no-repeat center center/18px 18px; 
+}
+.notification {
+    background: rgb(115, 115, 115) url(notification.png) no-repeat center center/18px 18px;
+    border-radius: 100%;
+}
+.google_apps:hover {
+    opacity: 1;
+}
+.notification:hover {
+    background: black url(notification.png) no-repeat center center/18px 18px;
+}
+.profile {
+    background: transparent url(profile.jpg) no-repeat center center/25px 25px;
+    border-radius: 100%; 
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline;
+}
+li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Search box area */
+main {
+    height: 652px;
+}
+.content {
+    text-align: center;
+    width: 50%;
+    margin: 150px auto auto;
+}
+.searchbox {
+    max-width: 484px;
+    height: 44px;
+    border: 1px solid hsl(0, 0%, 85%);
+    border-radius: 2px;
+    margin: 30px auto 10px auto;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+                0 0 0 1px rgba(0,0,0,0.08);
+}
+#text-input {
+    border: none;
+    width: 90%;
+    height: 100%;
+    float: left;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.mic {
+    float: right;
+    width: 10%;
+    height: 100%;
+    background: transparent url(mic2.png) no-repeat center center/25px 25px;
+}
+button {
+    border: none;
+    border-radius: 2px;
+    margin: 20px 4px 0 4px;
+    color: rgb(117, 117, 117);
+    background-color: rgb(245, 245, 245);
+    height: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0 16px;
+    cursor: pointer;
+}
+button:hover {
+    color: black;
+    border: 1px solid hsl(0, 0%, 78%);
+}
+.google_lang {
+    margin-top: 25px;
+    font-size: small;
+}
+.google_lang a {
+    padding: 0 3px;
+    text-decoration: none;
+}
+.google_lang a:hover {
+    text-decoration: underline;
+}
+/* Footer Section */
+footer {
+    line-height: 40px;
+    background-color: rgb(242, 242, 242);
+    color: rgba(0, 0, 0, 0.54);
+    width: 100%;
+}
+footer p {
+    border-top: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding-left: 30px;
+    font-size: 15px;
+}
+.left a, .right a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: small;
+    padding-right: 22px;
+}
+footer nav {
+    padding-left: 30px;
+}
+nav .right {
+    float: right;
+}
